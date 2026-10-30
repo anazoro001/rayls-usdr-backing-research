@@ -1,6 +1,6 @@
 # What Backs USDr on Rayls? An Onchain Check of Its Stablecoin Gas Token
 
-**Author:** Anazoro  
+  
 **Research period:** October 22–24, 2026  
 **Category:** On-chain Research · Stablecoins · Rayls
 
@@ -83,7 +83,6 @@ The results below were observed during my October 22–24, 2026 checks.
 
 ![USDr escrow read-function results](evidence/escrow-read-functions.png)
 
-*Replace the image path above with the exact filename of your escrow screenshot.*
 
 One detail matters: despite its name, the verified source for `circulatingUSDr()` shows that it returns `usdr.totalSupply()`. I therefore interpret it as a total-supply reading, not an independently calculated circulating-supply figure.
 
@@ -105,7 +104,6 @@ The token uses six decimals, so the raw integer returned by the contract was `26
 
 ![USDC.e escrow token balance](evidence/usdc-e-balance.png)
 
-*Replace the image path above with the exact filename of your USDC.e balance screenshot.*
 
 The escrow reported required backing of 25,036.460262 USDC.e. Comparing the two figures gives:
 
